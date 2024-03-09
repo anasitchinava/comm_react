@@ -1,9 +1,14 @@
 import React from 'react'
 import DataFetch from '../UI/dataFetch'
+import { Box } from '@chakra-ui/react'
 
 const Groups = () => {
   return (
-    <DataFetch />
+    <Box
+      overflow={"scroll"}
+      height={"100vh"}>
+      <DataFetch />
+    </Box>
   )
 }
 

@@ -34,7 +34,7 @@ const Navigation = () => {
         <a href="/groups">
           <Flex gap={"8px"}>
             <GroupsIcon />
-            Groups
+            Products
           </Flex>
         </a>
       </Text>

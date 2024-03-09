@@ -6,6 +6,7 @@ import Header from './components/layout/header';
 import { Flex } from '@chakra-ui/react';
 import Dashboard from './components/pages/dashboard';
 import Groups from './components/pages/groups';
+import './App.css'
 
 const router = createBrowserRouter([
   {
