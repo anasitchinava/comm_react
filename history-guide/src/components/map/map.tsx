@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import WorldMap from "@/app/assets/worldMap";
-import { GREECE } from "@/app/data/greece";
+import WorldMap from "@/assets/worldMap";
+import { GREECE } from "@/data/greece";
 import Link from "next/link";
 
 const Map = () => {
@@ -24,7 +24,7 @@ const Map = () => {
                     <h2>Timeline</h2>
                     <ul>
                         {timeline?.map((item, index): any => (
-                            <Link href="" key={index}>
+                            <Link href="worldDescription" key={index}>
                                 <h3>{item.period}</h3>
                             </Link>
                         ))}

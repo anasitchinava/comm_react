@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Sidebar from "@/app/components/navigation/sidebar";
+import Sidebar from "@/components/navigation/sidebar";
 import "./globals.css";
-// import Quiz from "./pages/quiz";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +21,6 @@ export default function RootLayout({
         <div className="flex gap-5">
           <Sidebar />
           <div className={inter.className}>{children}</div>
-          {/* <Quiz/> */}
         </div>
       </body>
     </html>
